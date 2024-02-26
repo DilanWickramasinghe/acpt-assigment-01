@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace bolder;
+}
+
+.main 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+/* First Container Start Here */
+.first-container {
+    display: flex;
+    border: 1px solid black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+.object {
+    border: 1px solid black;
+    height: 75px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.form {
+    display: flex;
+}
+
+.form ol {
+    margin: 10px;
+    font-size: larger;
+}
+
+/* firt container End Here */
+
+/* Name Start Here */
+.second-div{
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rounder {
+    width: 300px;
+    height: 300px;
+    border: 1.5px solid black;
+    border-radius: 150px;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    display: flex;
+}
+
+.name-para{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-para h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+/* project ccontainer start here */
+.project-div {
+    display: grid;
+    margin-top: 25px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+.project{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border: 1.5px solid black;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+/* map */
+.map {
+    margin-top: 25px;
+    height: 480px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* video wrapper */
+.video-wrapper {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.comment-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.Comment {
+    margin: 5px;
+    width: 650px;
+    height: 250px;
+    border: 1.5px solid black;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.submit {
+    margin-left: 25px;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: greenyellow;
+    border: none;
+}
+
+/* My technology stack & other */
+.ol-ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image {
+    width: 100px;
+}
+
+.ol-ul div {
+    display: flex;
+    margin-left: 1000px;
+}
+
+/* Develop By */
+.develop-by {
+    margin-top: 10px;
+    height: 50px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 5vh;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+.table {
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+table, td, th {
+    padding: 20px;
+    border: 1px solid lightgray;
+    width: 800px;
+    margin: 50px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    font-size: 18px;
+}
+
+th{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+}
+
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+tr:nth-child(odd):hover{
+    background-color: dodgerblue;
+    color: white;
+    transform: scale(1.5);
+    transition: transform 300ms ease-in;
+}
+
+tr:nth-child(even){
+    background-color: grey;
+}
+
+tr:nth-child(even):hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.5);
+    transition: transform 300ms ease-in;
+}
